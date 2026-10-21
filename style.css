@@ -6,11 +6,23 @@ main {
   justify-content: center;
 }
 
+header h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 2px;
+  font-weight: 500;
+  color: red;
+}
+
+header h1 span {
+  color: rgb(180, 56, 180);
+}
+
 table {
   border: 3px solid red;
 }
 
-thead #column > th {
+thead th {
   background-color: rgb(245, 224, 196);
 }
 
@@ -22,18 +34,17 @@ td {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: rgb(184, 182, 185);
+  background-color: rgb(197, 183, 117);
 }
 
 tbody tr:nth-child(even) {
-  background-color: rgb(167, 144, 44);
+  background-color: rgb(214, 208, 218);
 }
 
-th:first-child,
-td:first-child {
+tbody td:first-child {
   background-color: rgb(63, 236, 236);
 }
 
-#footer > td {
+tfoot td {
   background-color: rgb(253, 171, 171);
 }
